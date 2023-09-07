@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ResourceManager">
+      <UniqueIdentifier>{752cade4-5521-494c-ad25-d07d664e2275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ResourceManager">
+      <UniqueIdentifier>{561b6500-213a-4ddf-8658-0b88d8b8d358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Model">
+      <UniqueIdentifier>{31551cd9-103e-4a58-82f5-ea683ebdb9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Model">
+      <UniqueIdentifier>{de3771ea-afcc-42f9-9099-ceb8c32a4528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{ad4b8e5b-a8c4-48df-8cd0-4ff70b9557f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{995cd5ef-ea09-4c03-94a0-667c142d7ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader">
+      <UniqueIdentifier>{77b06d8c-d4f1-4314-aaa0-907fa67f0dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader\floor">
+      <UniqueIdentifier>{b0152d44-992e-474a-abd6-3e2d372364d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\spine">
+      <UniqueIdentifier>{0395b832-ee84-464a-ac85-951abf88c29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\spine">
+      <UniqueIdentifier>{5ddb7638-9e7d-456d-ba13-8f3bd6488551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader\spine">
+      <UniqueIdentifier>{9c771d8c-b25e-472f-870a-3701781884cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Render">
+      <UniqueIdentifier>{a84c79eb-90ce-43c7-8fda-48b47ea3f1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Render">
+      <UniqueIdentifier>{21ebe805-98d2-4b28-8582-4e40f58fb904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Object">
+      <UniqueIdentifier>{213205a8-8c63-4643-8e12-b7bff7d86582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader\outline">
+      <UniqueIdentifier>{1bb27e71-cd87-4ced-aaff-3f1dcd95de94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader\mesh">
+      <UniqueIdentifier>{18f98d84-779d-44c1-9308-550b9563ac49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Objcet">
+      <UniqueIdentifier>{193e6941-0a3e-42dd-99c8-6cc2df335d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\shader\ui">
+      <UniqueIdentifier>{8ad3c6c8-fc67-4dd4-83f2-ae1c2167917f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLContext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Texture.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\TextureManager.cpp">
+      <Filter>源文件\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stbi\src\stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Shader.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\ShaderManager.cpp">
+      <Filter>源文件\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\VertexArray.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\VertexArrayManager.cpp">
+      <Filter>源文件\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Model.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Animation.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\AnimationState.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\AnimationStateData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Atlas.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\AtlasAttachmentLoader.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Attachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\AttachmentLoader.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\AttachmentTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Bone.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\BoneData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\BoundingBoxAttachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\ClippingAttachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\ColorTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\ConstraintData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\CurveTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\DeformTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\DrawOrderTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Event.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\EventData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\EventTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Extension.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\IkConstraint.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\IkConstraintData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\IkConstraintTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Json.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\LinkedMesh.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\MathUtil.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\MeshAttachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\PathAttachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\PathConstraint.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\PathConstraintData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\PathConstraintMixTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\PathConstraintPositionTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\PathConstraintSpacingTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\PointAttachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\RegionAttachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\RotateTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\RTTI.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\ScaleTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\ShearTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Skeleton.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\SkeletonBinary.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\SkeletonBounds.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\SkeletonClipping.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\SkeletonData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\SkeletonJson.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Skin.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Slot.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\SlotData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\SpineObject.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\TextureLoader.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Timeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\TransformConstraint.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\TransformConstraintData.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\TransformConstraintTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\TranslateTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Triangulator.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\TwoColorTimeline.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\Updatable.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\VertexAttachment.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\spine\spine3.8\src\spine\VertexEffect.cpp">
+      <Filter>源文件\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render\Render.cpp">
+      <Filter>源文件\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\ModelManager.cpp">
+      <Filter>源文件\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\SpineModel.cpp">
+      <Filter>源文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object\Object.cpp">
+      <Filter>源文件\Objcet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GLContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\TextureManager.h">
+      <Filter>头文件\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\Texture.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stbi\include\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\Shader.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\ShaderManager.h">
+      <Filter>头文件\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\VertexArray.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\VertexArrayManager.h">
+      <Filter>头文件\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model\Model.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Animation.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\AnimationState.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\AnimationStateData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Atlas.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\AtlasAttachmentLoader.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Attachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\AttachmentLoader.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\AttachmentTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\AttachmentType.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\BlendMode.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Bone.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\BoneData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\BoundingBoxAttachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\ClippingAttachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Color.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\ColorTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\ConstraintData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\ContainerUtil.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\CurveTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Debug.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\DeformTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\dll.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\DrawOrderTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Event.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\EventData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\EventTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Extension.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\HashMap.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\HasRendererObject.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\IkConstraint.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\IkConstraintData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\IkConstraintTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Json.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\LinkedMesh.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\MathUtil.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\MeshAttachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\MixBlend.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\MixDirection.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PathAttachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PathConstraint.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PathConstraintData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PathConstraintMixTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PathConstraintPositionTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PathConstraintSpacingTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PointAttachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Pool.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\PositionMode.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\RegionAttachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\RotateMode.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\RotateTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\RTTI.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\ScaleTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\ShearTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Skeleton.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SkeletonBinary.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SkeletonBounds.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SkeletonClipping.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SkeletonData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SkeletonJson.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Skin.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Slot.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SlotData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SpacingMode.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\spine.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SpineObject.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\SpineString.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TextureLoader.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Timeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TimelineType.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TransformConstraint.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TransformConstraintData.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TransformConstraintTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TransformMode.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TranslateTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Triangulator.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\TwoColorTimeline.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Updatable.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Vector.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\VertexAttachment.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\VertexEffect.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\spine\spine3.8\include\spine\Vertices.h">
+      <Filter>头文件\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Render\Render.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\ModelManager.h">
+      <Filter>头文件\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object\Object.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model\MeshModel.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model\SpineModel.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object\ObjectManager.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shader\floor\fragment.fs">
+      <Filter>资源文件\shader\floor</Filter>
+    </None>
+    <None Include="res\shader\floor\vertex.vs">
+      <Filter>资源文件\shader\floor</Filter>
+    </None>
+    <None Include="res\shader\spine\spineModel.fs">
+      <Filter>资源文件\shader\spine</Filter>
+    </None>
+    <None Include="res\shader\spine\spineModel.vs">
+      <Filter>资源文件\shader\spine</Filter>
+    </None>
+    <None Include="res\shader\outline\outline.fs">
+      <Filter>资源文件\shader\outline</Filter>
+    </None>
+    <None Include="res\shader\outline\outline.vs">
+      <Filter>资源文件\shader\outline</Filter>
+    </None>
+    <None Include="res\shader\mesh\mesh.fs">
+      <Filter>资源文件\shader\mesh</Filter>
+    </None>
+    <None Include="res\shader\mesh\mesh.vs">
+      <Filter>资源文件\shader\mesh</Filter>
+    </None>
+    <None Include="res\shader\UI\ui.fs">
+      <Filter>资源文件\shader\ui</Filter>
+    </None>
+    <None Include="res\shader\UI\ui.vs">
+      <Filter>资源文件\shader\ui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
